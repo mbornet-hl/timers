@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
           exit(1);
      }
 
-     _max_loop                          = atol(argv[1]);
+     _max_loop                          = atoi(argv[1]);
 
     (void) signal(SIGALRM, display_message);
 

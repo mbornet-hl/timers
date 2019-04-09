@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
      }
 
 	printf("Initializing ...\n");
-     _max_loop                          = atol(argv[1]);
+     _max_loop                          = atoi(argv[1]);
 
     (void) signal(SIGALRM, fct_alarm);
     (void) alarm(2);
